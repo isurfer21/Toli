@@ -1,7 +1,7 @@
 @ECHO off
 ECHO.
 ECHO Automator for MyApp
-ECHO Copyright (c) 2017 Abhishek Kumar (akbittu@gmail.com), HCL Tech
+ECHO Copyright (c) 2017 Abhishek Kumar (akbittu@gmail.com), Nistush Tech Solution
 ECHO.
 
 IF "%1"=="-c" (
