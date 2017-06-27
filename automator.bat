@@ -1,7 +1,7 @@
 @ECHO off
 ECHO.
-ECHO Automator for MiCloud Telepo
-ECHO Copyright (c) 2017 Abhishek Kumar (kumarab@hcl.com), HCL Tech
+ECHO Automator for MyApp
+ECHO Copyright (c) 2017 Abhishek Kumar (akbittu@gmail.com), HCL Tech
 ECHO.
 
 IF "%1"=="-c" (
