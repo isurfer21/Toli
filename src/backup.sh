@@ -9,9 +9,8 @@ cd "/Users/kumarab/Documents/Backups/mysql/"
 function dbdump() {
 	dbname=$1
 	printf "\nBacking up: $dbname\n"
-	mkdir -p "$dbname"
-	"/usr/local/mysql/bin/mysqldump" -u root -pHCL@kaW8 "$dbname" > "$dbname/$timestamp.sql"
-	printf "Stored at $PWD/$dbname/$timestamp.sql\n"
+	"/usr/local/mysql/bin/mysqldump" -u root -pHCL@kaW8 "$dbname" > "$dbname.sql"
+	printf "Stored at $PWD/$dbname.sql\n"
 }
 
 dbdump "crat"
